@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class JobMockWebApplication {
 
     public static void main(String[] args) {
+        System.out.println("Starting JobMockWebApplication");
         SpringApplication.run(JobMockWebApplication.class, args);
     }
 
